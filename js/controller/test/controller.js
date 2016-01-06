@@ -3,8 +3,10 @@
  */
 angular.module("myApp.view1",['ngRoute'])
 
-.config(['$routeProvider',function($routeProvider){       //配置路由，用于页面切换
-        $routeProvider.when('/',{          //url
+.config(['$routeProvider',
+    function($routeProvider){       //配置路由，用于页面切换
+        $routeProvider.
+        when('/',{          //url
             templateUrl:"view/home.html",       //页面真实路径
             controller:"HomeController"
         })
@@ -16,6 +18,7 @@ angular.module("myApp.view1",['ngRoute'])
 
 .controller("HomeController",function($scope){
     $scope.ddd="测试成功！";
+        console.log(123);
 })
 
 

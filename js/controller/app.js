@@ -6,5 +6,5 @@ angular.module('myApp',[
     'myApp.view1'
 ]).
 config(['$routeProvider',function($routeProvider){
-    $routeProvider.otherwise({redirectTo:'/test'})      //设置默认controller的相对路径
-}]);
+    $routeProvider.otherwise({redirectTo:'/test'})
+}])

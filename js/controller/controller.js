@@ -18,7 +18,11 @@ angular.module("myApp.view1",['ngRoute'])
 
 .controller("HomeController",function($scope){
     $scope.ddd="测试成功！";
-        console.log(123);
+    $scope.data=[
+        {name:"黄源",dd:"我不是人"},{name:"黄源",dd:"是狗"},
+        {name:"黄源",dd:"我不是人"},{name:"黄源",dd:"是狗"},
+        {name:"黄源",dd:"我不是人"},{name:"黄源",dd:"是狗"},
+    ]
 })
 
 
